@@ -4,55 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family= Inter:wght@400;700 & display =swap" rel="stylesheet">
+    <title>Alura+</title>
 </head>
 <body>
-    <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="index.html">
-                Home
-            </a>
-            <a class="cabecalho__menu__link" href="about.html">
-                Sobre mim
-            </a>
-            <a class="cabecalho__menu__link" href="portifolio.html">
-                Portifólio
-            </a>
-        </nav>
-    </header>
-    <main class="apresentacao titulo">
-        <selection class="apresentacao__conteudo">
-                <h1 class="apresentacao__conteudo__titulo"> Eleve seu negócio digital a outro nível <strong>com um Front-end de qualidade!</strong></h1>
-                <p class="apresentacao__conteudo__texto">Olá! Sou João Gabryel, desenvolvedor Front-end com especialidade em HTML e CSS. Ajudo
-                pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?
-                </p>
-                <div class="apresentacao__links">
-                        <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
-                        <a class='apresentacao__links__link' href="https://www.linkedin.com/in/jo%C3%A3o-gabryel-santos-pereira-9093b2216/" target="_blank">
-                            <img src="./styles/linkedin.png" width="16px">
-                            Linkedin</a>
-                        <a class='apresentacao__links__link' href="https://replit.com/@JoaoGabryel3" target="_blank">
-                            <img src="./styles/replit.ico" width="16px">
-                            Replit</a>
-                        <a class='apresentacao__links__link' href="https://github.com/jgabryeldev" target="_blank">
-                            <img src="./styles/github.png" width="16px">
-                            GitHub</a>
+    <section class="container principal">
+        <div class="container__geral">
+            <h1 class="container__titulo">Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço
+                único.</h1>
+            <img src="./pictures/Combo.png" alt="Com o combo+  você pode aproveitar a Alura+ e o Alura Língua por um preço único" class="container__img">
+            <a href="#" class="container__botao">Assine por 12x de R$ 120,00*</a>
+            <a href="#" class="container__botao botao_2">Assinar somente o Alura+</a>
+            <p class="container__aviso">*O preço pode variar caso a assinatura seja feita em outros planos</p>
+        </div>
+    </section>
+    <section class="container secundario">
+        <img src="./pictures/Plataformas.png" alt="Um monitor e um celular com o Alura plus aberto" class="secundario__img">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Assista do seu jeito</h2>
+            <p class="descricao__paragrafo">Aproveite a tela grande da TV ou assista no Tablet, laptop, celular e outros aparelhos. Nossa seleção de cursos não para de crescer</p>
+        </div>
+    </section>
+    <section class="container secundario">
+        <div class="container__descricao">
+            <p class="descricao__paragrafo">Só o Combo+ oferece Alura+ e Alura Língua juntos para você ter acesso a cursos de diversas áreas da tecnologia e aprender inglês ou espanhol, onde e como quiser.</p>
+            <a href="#" class="container__botao pag3">Assine o Combo+</a>
+        </div>
+        <img src="./pictures/Telas.png" class="secundario__imagem" alt="plataformas alura">
+    </section>
+    <section class="container secundario">
+        <img src="./pictures/Notebook.png" alt="Um notebook com a plataforma alura aberta" class="secundario__img">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Baixe seus cursos</h2>
+            <p class="descricao__paragrafo">Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet.</p>
+        </div>
+        </section>
+        <section class="container__secundario">
+            <div class="secundario__titulo2">
+                <h2>Disponível nos seus dispositivos favoritos</h2>
+            </div>
+            <div class="secundario__dispositivos">
+                <div class="secundario__aparelhos">
+                    <img src="./pictures/tv.png" alt="televisao"class="secundario__imagem2">
+                    <p class="secundario__sub">TV</p>
                 </div>
-        </selection>
-        <img class="apresentacao__img" src="./styles/6.png" alt="imagem portifolio">
-    </main>
-    <footer class="rodape">
-        <p>Desenvolvido por J. Dev</p>
-    </footer>
+                <div class="secundario__aparelhos">
+                    <img src="./pictures/computador.png" alt="computador" class="secundario__imagem2">
+                    <p class="secundario__sub">Computador</p>
+                </div>
+                <div class="secundario__aparelhos">
+                    <img src="./pictures/celular.png" alt="celular" class="secundario__imagem2">
+                    <p class="secundario__sub">Celulares e Tablets</p>
+                </div>
+            </div>
+        </section>
+        <footer class="rodape">
+            <img src="./pictures/Logo.png" alt="logo alura+" class="rodape__logo">
+            <ul class="rodape__lista">
+                <li class="lista__link">
+                    <a href="#">Idioma</a>
+                </li>
+                <li class="lista__link">
+                    <a href="#">Dispositivos compatíveis</a>
+                </li>
+                <li class="lista__link">
+                    <a href="#">Contrato de assinatura</a>
+                </li>
+                <li class="lista__link">
+                    <a href="#">Politica de privacidade</a>
+                </li>
+                <li class="lista__link">
+                    <a href="#">Proteção de dados no Brasil</a>
+                </li>
+                <li class="lista__link">
+                    <a href="#">Anuncios personalizados</a>
+                </li>
+                <li class="lista__link">
+                    <a href="#">Ajuda</a>
+                </li>
+            </ul>
+            <p class="rodape__paragrafo">® 2021 Alura, Alura+ e Alura Língua. Todos os direitos reservados. Serviço de
+                assinatura paga. Conteúdo sujeito a disponibilidade.</p>
+            <p class="rodape__paragrafo">Alura+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O
+                serviço Alura+ é comercializado por Aovs Sistemas de Informática S.A., Rua Vergueiro, 3185 - Liberdade, São
+                Paulo - SP, 04101-300, Brasil e CNPJ 05.555.382/0001-33</p>
+        </footer>
 </body>
 </html>
-<!--<section class="apresentacao__trabalhos">
-    <div class="c">
-        <img src="./styles/csharp.gif" alt="texto alternativo">
-
-    </div >
-    <div class="plus">
-        <img src="./styles/Plus.gif" alt="video da pagina Alura Plus">
-    </div>
-</section>-->
